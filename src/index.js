@@ -4,7 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 
-//Create a React Component
+//Create a React Component(ES6)
 const App = () => {
   return <div>Hi There!</div>;
 };
