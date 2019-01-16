@@ -6,7 +6,13 @@ import ReactDOM from 'react-dom';
 
 //Create a React Component(ES6)
 const App = () => {
-  return <div>Hi There!</div>;
+  return (
+    <div>
+      <label class="label" for='name'>Enter Name: </label>
+      <input id="name" type="text"/>
+      <button>Submit</button>
+    </div>
+  )
 };
 
 
