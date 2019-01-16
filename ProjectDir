@@ -1,0 +1,28 @@
+src: Folder where all written source code is held(generally all the defaulted created files will be deleted
+  or modified)
+
+public: Folder that stores static files like images, and html file that never changes
+
+node_modules: Contains all the project dependencies, consisting of the 1900+ dependencies that were
+  installed with creation
+
+package.json: Records the project dependencies and configures the project, over time there will be future
+  updates to the dependencies
+
+package-lock.json: Records the EXACT version of packages that are installed, consisting of the 1900+
+  dependencies initially installed with creation
+
+README.md: Instructions on how to use the project(project manual)
+
+.gitignore: Reference to the Git version control system, Git should ignore when tracking project
+
+
+////////////////////////////////////////////////////////////////////////////////
+import React from 'react'
+import:     Get code from other file or dependency
+React:      Variable to assign what is being imported
+from:       Specify the name of the library or file importing from
+'react':    Name of dependency OR path to the file being imported
+
+import: References a module system of ES2015 modules, with a set of rules
+require: Refernces CommonJS modules with a different set of rules
