@@ -21,7 +21,7 @@ const App = () => {
 };
 
 
-//Take React Component and shoe it on the screen
+//Take React Component and show it on the screen
 ReactDOM.render(
   <App />,
   document.querySelector('#root') //reference public/index.html, built in native function
